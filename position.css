@@ -230,6 +230,15 @@ main .service-title svg{
 }
 
 
+#education {
+  padding: 20px 0;
+}
+
+.main-cont #content{
+  margin-left: 30px;
+  width: 100%;
+}
+
 
 
 .main-cont::after, .main-cont::before {
@@ -282,6 +291,24 @@ main .service-title svg{
 .main-cont .content::before{
   filter: blur(1.5rem);
   opacity: 0.7;
+}
+
+
+
+
+.main-cont .content p{
+  text-align: left;
+  padding-left: 25px;
+}
+
+
+.main-cont .content a{
+  color: gold;
+  text-decoration: none;
+}
+
+.main-cont .content a:hover{
+  color: red;
 }
 
 
